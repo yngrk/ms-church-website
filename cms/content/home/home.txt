@@ -1,9 +1,0 @@
-Title: Home
-
-----
-
-Layout: [{"attrs":{"reversecol":"false"},"columns":[{"blocks":[{"content":{"location":"kirby","image":[],"src":"","alt":"","caption":"","link":"","ratio":"","crop":"false"},"id":"0f545eff-5453-4f0b-9e6b-f838f8ad1d27","isHidden":false,"type":"image"}],"id":"32b4fb6f-68c2-49ba-aaa3-8c85613d5a27","width":"1/2"},{"blocks":[{"content":{"text":""},"id":"e5d77cd6-a10c-4bf0-9270-40bc104183c2","isHidden":false,"type":"text"}],"id":"32ae7496-e14a-42d6-a871-86856aedf2e0","width":"1/2"}],"id":"5504ae40-6faa-497b-a455-ebcea11975d0"}]
-
-----
-
-Uuid: aXRu5huoYHQrNHRQ
