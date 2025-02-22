@@ -2,7 +2,7 @@ services:
   ms-church-backend:
     build:
       context: ./
-      dockerfile: Dockerfile.backend
+      dockerfile: backend.Dockerfile
     restart: always
     volumes:
       - ./cms:/var/www/html
@@ -17,7 +17,7 @@ services:
   ms-church-frontend:
     build:
       context: ./
-      dockerfile: Dockerfile.frontend
+      dockerfile: frontend.Dockerfile
     restart: always
     ports:
       - 3000:3000

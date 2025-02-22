@@ -1,0 +1,46 @@
+name: field.blocks.text.name
+icon: text
+wysiwyg: true
+preview: text
+
+fields:
+  alignment:
+    type: toggles
+    labels: false
+    grow: false
+    options:
+      - value: left
+        text: Left
+        icon: text-left
+      - value: center
+        text: Center
+        icon: text-center
+      - value: right
+        text: Right
+        icon: text-right
+      - value: justify
+        text: Justify
+        icon: text-justify
+    default: left
+
+  text:
+    type: writer
+    placeholder: field.blocks.text.placeholder
+    inline: false
+    headings:
+      - 2
+      - 3
+    nodes:
+      - heading
+      - paragraph
+      - bulletList
+      - orderedList
+    marks:
+      - bold
+      - italic
+      - link
+      - underline
+      - email
+    toolbar:
+      inline: false
+

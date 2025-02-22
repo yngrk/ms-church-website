@@ -1,7 +1,0 @@
-FROM php:8.3-apache
-
-RUN rm -rf /var/lib/apt/lists/*
-
-EXPOSE 80
-
-RUN a2enmod headers rewrite

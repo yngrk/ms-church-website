@@ -1,3 +1,4 @@
 fieldsets:
   - text
   - image
+  - gallery

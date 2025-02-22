@@ -1,3 +1,6 @@
 [submodule "cms/kirby"]
 	path = cms/kirby
 	url = https://github.com/getkirby/kirby.git
+[submodule "cms/site/plugins/SEO"]
+	path = cms/site/plugins/SEO
+	url = https://github.com/tobimori/kirby-seo.git

@@ -4,4 +4,4 @@ icon: page
 tabs:
   main: tabs/page-builder
   subpages: tabs/subpages
-
+  seo: seo/page

@@ -12,3 +12,6 @@ tabs:
   # SETTINGS
   globals:
     extends: tabs/globals
+
+  # SEO
+  seo: seo/site
