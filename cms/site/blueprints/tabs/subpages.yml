@@ -1,0 +1,6 @@
+label: Subpages
+icon: page
+sections:
+  subpages:
+    type: pages
+    label: Subpages

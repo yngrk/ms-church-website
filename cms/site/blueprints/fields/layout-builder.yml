@@ -1,0 +1,14 @@
+label: Layout
+type: layout
+layouts:
+  - "1/1"
+  - "1/2, 1/2"
+extends: options/fields
+
+settings:
+  fields:
+    reverseCol:
+      type: toggle
+      label: Reihenfolge umkehren
+      help: Nur für mobile Ansicht
+      default: false

@@ -1,0 +1,35 @@
+services:
+  ms-church-backend:
+    build:
+      context: ./
+      dockerfile: Dockerfile.backend
+    restart: always
+    volumes:
+      - ./cms:/var/www/html
+    ports:
+      - 80:80
+    networks:
+      - ms-church-network
+    environment:
+      BACKEND_URL: http://ms-church-backend/cms
+      FRONTEND_URL: http://localhost/cms
+
+  ms-church-frontend:
+    build:
+      context: ./
+      dockerfile: Dockerfile.frontend
+    restart: always
+    ports:
+      - 3000:3000
+      - 24678:24678
+    volumes:
+      - ./frontend:/src
+    pull_policy: build
+    environment:
+      HOST: 0.0.0.0
+    networks:
+      - ms-church-network
+
+networks:
+  ms-church-network:
+    driver: bridge

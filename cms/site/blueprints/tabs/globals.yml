@@ -1,0 +1,7 @@
+label: Settings
+icon: cog
+sections:
+  main:
+    type: fields
+    fields:
+      text:

@@ -1,0 +1,14 @@
+title: Overview
+
+tabs:
+  #PAGES
+  overview:
+    label: Pages
+    icon: page
+    sections:
+      pages:
+        label: Overview
+
+  # SETTINGS
+  globals:
+    extends: tabs/globals

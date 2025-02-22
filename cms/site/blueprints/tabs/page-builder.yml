@@ -1,0 +1,7 @@
+label: Content
+icon: page
+columns:
+
+  - width: 1/1
+    sections:
+      content: sections/page-content
