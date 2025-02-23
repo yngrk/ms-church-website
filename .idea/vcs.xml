@@ -4,5 +4,7 @@
     <mapping directory="" vcs="Git" />
     <mapping directory="$PROJECT_DIR$/cms/kirby" vcs="Git" />
     <mapping directory="$PROJECT_DIR$/cms/site/plugins/SEO" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/cms/site/plugins/kirby-headless" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/cms/site/plugins/kql" vcs="Git" />
   </component>
 </project>

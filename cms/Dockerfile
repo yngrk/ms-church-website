@@ -15,18 +15,23 @@ RUN a2enmod headers rewrite
 
 # Install image processing packages
 RUN apt update -y  \
+    && apt install -y git unzip \
     && apt install -y libpng-dev  \
     && apt install -y libjpeg-dev  \
     && apt install -y libwebp-dev  \
-    && apt install -y libicu-dev
+    && apt install -y libicu-dev \
+    && apt install -y imagemagick
 
-# Install and configure imagemagick
-RUN apt install -y imagemagick
+# configure imagemagick
 RUN docker-php-ext-configure gd --with-jpeg --with-webp
 RUN docker-php-ext-install gd
 
+# Install Composer
+RUN curl -sS https://getcomposer.org/installer | php -- --install-dir=/usr/local/bin --filename=composer
+
 # Change workingdir and copy contents to the image.
 WORKDIR /var/www/html
+
 COPY . .
 
 RUN chown -R www-data:www-data .

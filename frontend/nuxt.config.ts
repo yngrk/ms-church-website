@@ -5,6 +5,6 @@ export default defineNuxtConfig({
   modules: ['@nuxtjs/tailwindcss', 'nuxt-kql'],
   kql: {
     auth: 'bearer',
-    token: 'test',
+    token: process.env.KIRBY_API_TOKEN,
   }
 })

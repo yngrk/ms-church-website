@@ -12,28 +12,38 @@
   </component>
   <component name="PhpIncludePathManager">
     <include_path>
-      <path value="$PROJECT_DIR$/cms/kirby/vendor/symfony/polyfill-intl-normalizer" />
-      <path value="$PROJECT_DIR$/cms/kirby/vendor/symfony/polyfill-intl-idn" />
-      <path value="$PROJECT_DIR$/cms/kirby/vendor/symfony/deprecation-contracts" />
-      <path value="$PROJECT_DIR$/cms/kirby/vendor/symfony/yaml" />
-      <path value="$PROJECT_DIR$/cms/kirby/vendor/claviska/simpleimage" />
-      <path value="$PROJECT_DIR$/cms/kirby/vendor/symfony/polyfill-mbstring" />
-      <path value="$PROJECT_DIR$/cms/kirby/vendor/composer" />
-      <path value="$PROJECT_DIR$/cms/kirby/vendor/filp/whoops" />
-      <path value="$PROJECT_DIR$/cms/kirby/vendor/psr/log" />
-      <path value="$PROJECT_DIR$/cms/kirby/vendor/laminas/laminas-escaper" />
-      <path value="$PROJECT_DIR$/cms/kirby/vendor/league/color-extractor" />
-      <path value="$PROJECT_DIR$/cms/kirby/vendor/symfony/polyfill-ctype" />
-      <path value="$PROJECT_DIR$/cms/kirby/vendor/michelf/php-smartypants" />
-      <path value="$PROJECT_DIR$/cms/kirby/vendor/christian-riesen/base32" />
-      <path value="$PROJECT_DIR$/cms/kirby/vendor/phpmailer/phpmailer" />
       <path value="$PROJECT_DIR$/cms/site/plugins/SEO/vendor/composer" />
       <path value="$PROJECT_DIR$/cms/site/plugins/SEO/vendor/spatie/schema-org" />
+      <path value="$PROJECT_DIR$/cms/vendor/michelf/php-smartypants" />
+      <path value="$PROJECT_DIR$/cms/vendor/laminas/laminas-escaper" />
+      <path value="$PROJECT_DIR$/cms/vendor/vlucas/phpdotenv" />
+      <path value="$PROJECT_DIR$/cms/vendor/league/color-extractor" />
+      <path value="$PROJECT_DIR$/cms/vendor/symfony/polyfill-intl-normalizer" />
+      <path value="$PROJECT_DIR$/cms/vendor/symfony/polyfill-intl-idn" />
+      <path value="$PROJECT_DIR$/cms/vendor/symfony/polyfill-ctype" />
+      <path value="$PROJECT_DIR$/cms/vendor/symfony/polyfill-php80" />
+      <path value="$PROJECT_DIR$/cms/vendor/phpoption/phpoption" />
+      <path value="$PROJECT_DIR$/cms/vendor/phpmailer/phpmailer" />
+      <path value="$PROJECT_DIR$/cms/vendor/getkirby/composer-installer" />
+      <path value="$PROJECT_DIR$/cms/vendor/filp/whoops" />
+      <path value="$PROJECT_DIR$/cms/vendor/psr/log" />
+      <path value="$PROJECT_DIR$/cms/vendor/christian-riesen/base32" />
+      <path value="$PROJECT_DIR$/cms/vendor/graham-campbell/result-type" />
+      <path value="$PROJECT_DIR$/cms/vendor/composer" />
+      <path value="$PROJECT_DIR$/cms/vendor/claviska/simpleimage" />
+      <path value="$PROJECT_DIR$/cms/vendor/symfony/polyfill-mbstring" />
+      <path value="$PROJECT_DIR$/cms/vendor/symfony/deprecation-contracts" />
+      <path value="$PROJECT_DIR$/cms/vendor/symfony/yaml" />
     </include_path>
   </component>
   <component name="PhpProjectSharedConfiguration" php_language_level="8.1" />
   <component name="PhpStanOptionsConfiguration">
     <option name="transferred" value="true" />
+  </component>
+  <component name="PhpUnit">
+    <phpunit_settings>
+      <PhpUnitSettings custom_loader_path="$PROJECT_DIR$/cms/vendor/autoload.php" />
+    </phpunit_settings>
   </component>
   <component name="PsalmOptionsConfiguration">
     <option name="transferred" value="true" />
