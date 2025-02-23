@@ -1,26 +1,17 @@
 {
-  "type": "module",
+  "name": "nuxt-app",
   "private": true,
-  "packageManager": "pnpm@9.15.4",
+  "type": "module",
   "scripts": {
-    "dev": "nuxi dev",
-    "dev:tunnel": "nuxi dev --tunnel",
-    "build": "nuxi build",
-    "generate": "nuxi generate",
-    "preview": "nuxi preview",
-    "test:types": "vue-tsc --noEmit",
-    "prepare": "nuxi prepare"
+    "build": "nuxt build",
+    "dev": "nuxt dev",
+    "generate": "nuxt generate",
+    "preview": "nuxt preview",
+    "postinstall": "nuxt prepare"
   },
-  "devDependencies": {
-    "@nuxtjs/i18n": "^9.1.5",
-    "@sindresorhus/slugify": "^2.2.1",
-    "@types/node": "^22.13.0",
-    "@unocss/nuxt": "^65.4.3",
-    "@vueuse/nuxt": "^12.5.0",
+  "dependencies": {
     "nuxt": "^3.15.4",
-    "nuxt-kql": "^1.5.4",
-    "sitemap": "^8.0.0",
-    "typescript": "^5.7.3",
-    "vue-tsc": "^2.2.0"
+    "vue": "latest",
+    "vue-router": "latest"
   }
 }
