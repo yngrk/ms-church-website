@@ -1,0 +1,17 @@
+name: Google Maps Location
+icon: map
+wysiwyg: true
+preview: fields
+
+fields:
+  street:
+    type: text
+  state:
+    type: text
+    width: 1/2
+  zip:
+    label: ZIP-Code
+    type: text
+    width: 1/2
+  country:
+    type: text

@@ -1,4 +1,4 @@
-label: Layout
+label: Content
 type: layout
 layouts:
   - "1/1"
@@ -6,9 +6,3 @@ layouts:
 extends: options/fields
 
 settings:
-  fields:
-    reverseCol:
-      type: toggle
-      label: Reihenfolge umkehren
-      help: Nur für mobile Ansicht
-      default: false

@@ -2,3 +2,6 @@ fieldsets:
   - text
   - image
   - gallery
+  - table
+  - video
+  - location
