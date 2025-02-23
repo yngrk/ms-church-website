@@ -4,6 +4,7 @@ export default defineNuxtConfig({
   devtools: { enabled: true },
   modules: ['@nuxtjs/tailwindcss', 'nuxt-kql'],
   kql: {
-    auth: 'bearer'
+    auth: 'bearer',
+    token: 'test',
   }
 })

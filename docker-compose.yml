@@ -9,9 +9,6 @@ services:
       - 80:80
     networks:
       - ms-church-network
-    environment:
-      BACKEND_URL: http://ms-church-backend/cms
-      FRONTEND_URL: http://localhost/cms
     pull_policy: build
 
   ms-church-frontend:
