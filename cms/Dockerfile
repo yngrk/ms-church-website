@@ -26,9 +26,6 @@ RUN apt update -y  \
 RUN docker-php-ext-configure gd --with-jpeg --with-webp
 RUN docker-php-ext-install gd
 
-# Install Composer
-RUN curl -sS https://getcomposer.org/installer | php -- --install-dir=/usr/local/bin --filename=composer
-
 # Change workingdir and copy contents to the image.
 WORKDIR /var/www/html
 
