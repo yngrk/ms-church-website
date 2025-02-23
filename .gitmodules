@@ -4,3 +4,9 @@
 [submodule "cms/site/plugins/SEO"]
 	path = cms/site/plugins/SEO
 	url = https://github.com/tobimori/kirby-seo.git
+[submodule "cms/site/plugins/kirby-headless"]
+	path = cms/site/plugins/kirby-headless
+	url = https://github.com/johannschopplich/kirby-headless.git
+[submodule "cms/site/plugins/kql"]
+	path = cms/site/plugins/kql
+	url = https://github.com/getkirby/kql.git

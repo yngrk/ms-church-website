@@ -15,17 +15,14 @@ services:
     pull_policy: build
 
   ms-church-frontend:
-    build:
-      context: ./frontend
+    image: node:lts
     restart: always
     ports:
       - 3000:3000
-      - 24678:24678
     volumes:
-      - ./frontend:/src
-    pull_policy: build
-    environment:
-      HOST: 0.0.0.0
+      - ./frontend:/app
+    working_dir: /app
+    command: npm run dev
     networks:
       - ms-church-network
 
