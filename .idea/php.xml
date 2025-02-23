@@ -14,6 +14,21 @@
     <include_path>
       <path value="$PROJECT_DIR$/cms/site/plugins/SEO/vendor/composer" />
       <path value="$PROJECT_DIR$/cms/site/plugins/SEO/vendor/spatie/schema-org" />
+      <path value="$PROJECT_DIR$/cms/kirby/vendor/claviska/simpleimage" />
+      <path value="$PROJECT_DIR$/cms/kirby/vendor/laminas/laminas-escaper" />
+      <path value="$PROJECT_DIR$/cms/kirby/vendor/phpmailer/phpmailer" />
+      <path value="$PROJECT_DIR$/cms/kirby/vendor/symfony/polyfill-ctype" />
+      <path value="$PROJECT_DIR$/cms/kirby/vendor/symfony/polyfill-intl-idn" />
+      <path value="$PROJECT_DIR$/cms/kirby/vendor/symfony/polyfill-intl-normalizer" />
+      <path value="$PROJECT_DIR$/cms/kirby/vendor/symfony/deprecation-contracts" />
+      <path value="$PROJECT_DIR$/cms/kirby/vendor/psr/log" />
+      <path value="$PROJECT_DIR$/cms/kirby/vendor/league/color-extractor" />
+      <path value="$PROJECT_DIR$/cms/kirby/vendor/composer" />
+      <path value="$PROJECT_DIR$/cms/kirby/vendor/symfony/polyfill-mbstring" />
+      <path value="$PROJECT_DIR$/cms/kirby/vendor/symfony/yaml" />
+      <path value="$PROJECT_DIR$/cms/kirby/vendor/christian-riesen/base32" />
+      <path value="$PROJECT_DIR$/cms/kirby/vendor/filp/whoops" />
+      <path value="$PROJECT_DIR$/cms/kirby/vendor/michelf/php-smartypants" />
     </include_path>
   </component>
   <component name="PhpProjectSharedConfiguration" php_language_level="8.1" />
@@ -22,6 +37,7 @@
   </component>
   <component name="PhpUnit">
     <phpunit_settings>
+      <PhpUnitSettings configuration_file_path="$PROJECT_DIR$/cms/kirby/phpunit.xml.dist" custom_loader_path="$PROJECT_DIR$/cms/kirby/vendor/autoload.php" use_configuration_file="true" />
       <PhpUnitSettings custom_loader_path="$PROJECT_DIR$/cms/vendor/autoload.php" />
     </phpunit_settings>
   </component>

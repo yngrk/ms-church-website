@@ -53,3 +53,5 @@ Icon
 
 /vendor
 /composer.lock
+
+.env

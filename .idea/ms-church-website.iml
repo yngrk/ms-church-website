@@ -1,7 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <module type="WEB_MODULE" version="4">
   <component name="NewModuleRootManager">
-    <content url="file://$MODULE_DIR$" />
+    <content url="file://$MODULE_DIR$">
+      <sourceFolder url="file://$MODULE_DIR$/cms/kirby/src" isTestSource="false" packagePrefix="Kirby\" />
+      <sourceFolder url="file://$MODULE_DIR$/cms/site/plugins/SEO/classes" isTestSource="false" packagePrefix="tobimori\Seo\" />
+      <sourceFolder url="file://$MODULE_DIR$/cms/site/plugins/kirby-headless/src/classes" isTestSource="false" packagePrefix="JohannSchopplich\Headless\" />
+      <sourceFolder url="file://$MODULE_DIR$/cms/site/plugins/kql/tests" isTestSource="false" packagePrefix="Kirby\" />
+    </content>
     <orderEntry type="inheritedJdk" />
     <orderEntry type="sourceFolder" forTests="false" />
   </component>
