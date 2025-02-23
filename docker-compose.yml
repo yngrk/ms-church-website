@@ -9,7 +9,6 @@ services:
       - 80:80
     networks:
       - ms-church-network
-    pull_policy: build
 
   ms-church-frontend:
     build:
@@ -20,9 +19,6 @@ services:
       - 24678:24678
     volumes:
       - ./frontend:/src
-    pull_policy: build
-    environment:
-      HOST: 0.0.0.0
     networks:
       - ms-church-network
 

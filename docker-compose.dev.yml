@@ -9,7 +9,6 @@ services:
       - 80:80
     networks:
       - ms-church-network
-    pull_policy: build
     env_file: ./cms/.env
 
   ms-church-frontend:
