@@ -7,6 +7,7 @@ services:
       - ms-church-backend:/var/www/html
     networks:
       - ms-church-network
+      - nginx-network
 
   ms-church-frontend:
     build:
@@ -16,10 +17,13 @@ services:
       - ms-church-frontend:/src
     networks:
       - ms-church-network
+      - nginx-network
 
 networks:
   ms-church-network:
     driver: bridge
+  nginx-network:
+    external: true
 
 volumes:
   ms-church-backend:
