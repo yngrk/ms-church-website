@@ -4,7 +4,8 @@ services:
       context: ./cms
     restart: always
     volumes:
-      - ms-church-backend:/var/www/html
+      - content:/var/www/html/content
+      - accounts:/var/www/html/site/accounts
     networks:
       - ms-church-network
       - nginx-network
@@ -13,8 +14,6 @@ services:
     build:
       context: ./frontend
     restart: always
-    volumes:
-      - ms-church-frontend:/src
     networks:
       - ms-church-network
       - nginx-network
@@ -26,5 +25,5 @@ networks:
     external: true
 
 volumes:
-  ms-church-backend:
-  ms-church-frontend:
+  content:
+  accounts:
