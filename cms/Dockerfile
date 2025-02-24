@@ -27,8 +27,5 @@ COPY . .
 # Set permissions
 RUN chown -R www-data:www-data .
 
-COPY --chmod=0755 ./start.sh /start.sh
-ENTRYPOINT ["/start.sh"]
-
 # Expose port 80
 EXPOSE 80

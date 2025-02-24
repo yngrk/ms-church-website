@@ -9,6 +9,7 @@ services:
     networks:
       - ms-church-network
       - nginx-network
+    command: ['sh', './start.sh']
 
   ms-church-frontend:
     build:
