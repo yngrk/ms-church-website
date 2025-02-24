@@ -24,11 +24,11 @@ RUN docker-php-ext-configure gd --with-jpeg --with-webp && \
 WORKDIR /var/www/html
 COPY . .
 
-# Initialize and update submodules
-RUN git submodule update --init --recursive
-
 # Set permissions
 RUN chown -R www-data:www-data .
+
+# Set the entrypoint
+ENTRYPOINT ["/entrypoint.sh"]
 
 # Expose port 80
 EXPOSE 80
