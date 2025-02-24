@@ -5,8 +5,6 @@ services:
     restart: always
     volumes:
       - ms-church-backend:/var/www/html
-    ports:
-      - 80:80
     networks:
       - ms-church-network
 
@@ -14,9 +12,6 @@ services:
     build:
       context: ./frontend
     restart: always
-    ports:
-      - 3000:3000
-      - 24678:24678
     volumes:
       - ms-church-frontend:/src
     networks:
