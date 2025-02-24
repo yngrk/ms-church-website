@@ -9,7 +9,8 @@ services:
       - 80:80
     networks:
       - ms-church-network
-    env_file: ./cms/.env
+    environment:
+      - KIRBY_HEADLESS_API_TOKEN=test
 
   ms-church-frontend:
     image: node:lts
@@ -22,6 +23,9 @@ services:
     command: ['sh', './start.sh']
     networks:
       - ms-church-network
+    environment:
+      - KIRBY_API_TOKEN=test
+      - KIRBY_BASE_URL=http://ms-church-backend
 
 networks:
   ms-church-network:

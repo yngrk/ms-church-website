@@ -4,7 +4,7 @@ services:
       context: ./cms
     restart: always
     volumes:
-      - ./cms:/var/www/html
+      - ms-church-backend:/var/www/html
     ports:
       - 80:80
     networks:
@@ -18,10 +18,14 @@ services:
       - 3000:3000
       - 24678:24678
     volumes:
-      - ./frontend:/src
+      - ms-church-frontend:/src
     networks:
       - ms-church-network
 
 networks:
   ms-church-network:
     driver: bridge
+
+volumes:
+  ms-church-backend:
+  ms-church-frontend:

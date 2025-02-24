@@ -1,6 +1,4 @@
-ARG NODE_VERSION=20.14.0
-
-FROM node:${NODE_VERSION}-slim AS build
+FROM node:lts AS build
 
 WORKDIR /app
 
@@ -12,7 +10,7 @@ COPY . ./
 
 RUN npm run build
 
-FROM node:${NODE_VERSION}-slim
+FROM node:lts
 
 WORKDIR /app
 
