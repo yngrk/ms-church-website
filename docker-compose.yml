@@ -3,6 +3,8 @@ services:
     build:
       context: ./cms
     restart: always
+    ports:
+      - 80:80
     volumes:
       - content:/var/www/html/content
       - accounts:/var/www/html/site/accounts
@@ -14,6 +16,8 @@ services:
     build:
       context: ./frontend
     restart: always
+    ports: 
+    - 3000:3000
     networks:
       - ms-church-network
       - nginx-network
